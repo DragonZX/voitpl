@@ -69,7 +69,4 @@
             <fieldset name="basic"/>
         </fields>
     </config>
-    <languages folder="language">
-        <language tag="en-GB">en-GB/en-GB.tpl_voi_11112.ini</language>
-    </languages>
 </extension>
