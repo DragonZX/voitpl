@@ -11,9 +11,7 @@
         <folder>css</folder>
         <folder>html</folder>
         <folder>images</folder>
-        <folder>language</folder>
         <folder>library</folder>
-        <file>ReadMe.txt</file>
         <file>component.php</file>
         <file>favicon.ico</file>
         <file>functions.php</file>
