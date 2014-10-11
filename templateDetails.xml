@@ -6,7 +6,7 @@
     <version>2.2</version>
     <author>VOI Saint Petersburg</author>
     <authorUrl>spbvoi2007@yandex.ru</authorUrl>
-    <description>Template for Saint Petersburg VOI<description>
+    <description>Template for Saint Petersburg VOI</description>
     <files>
         <folder>css</folder>
         <folder>html</folder>
