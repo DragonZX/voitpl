@@ -11,15 +11,13 @@
         <folder>css</folder>
         <folder>html</folder>
         <folder>images</folder>
+		<folder>js</folder>
         <folder>library</folder>
         <file>component.php</file>
         <file>favicon.ico</file>
         <file>functions.php</file>
         <file>index.html</file>
         <file>index.php</file>
-        <file>jquery.js</file>
-        <file>script.js</file>
-        <file>script.responsive.js</file>
         <file>templateDetails.xml</file>
         <file>template_preview.png</file>
         <file>template_thumbnail.png</file>
