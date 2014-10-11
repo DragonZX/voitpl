@@ -4,9 +4,9 @@
     <name>voi</name>
     <creationDate>2014-10-01</creationDate>
     <version>2.2</version>
-    <author>voi</author>
-    <authorUrl/>
-    <description/>
+    <author>VOI Saint Petersburg</author>
+    <authorUrl>spbvoi2007@yandex.ru</authorUrl>
+    <description>Template for Saint Petersburg VOI<description>
     <files>
         <folder>css</folder>
         <folder>html</folder>
