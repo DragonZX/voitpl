@@ -1,11 +1,5 @@
 <?php
 defined('_JEXEC') or die;
-
-/**
- * Template for Joomla! CMS, created with Artisteer.
- * See readme.txt for more details on how to use the template.
- */
-
 require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'functions.php';
 
 // Create alias for $this object reference:
@@ -68,8 +62,8 @@ JHtml::_('behavior.framework', true);
 <script type="text/javascript">
     showTime();
 </script></div>
-<br><br><br><br><br>
-<span style="font-size:10pt;color:#FEE300;text-shadow: 1.4px 1.4px 0 rgba(23, 23, 23, 0.81);font-weight:700;font-family:Verdana;background-color:;margin-left: 0;width:60px;border:0px solid rgb(250,0,0)">
+<br><br><br><br><br><br>
+<span class="time_div">
 <?php echo date('d.m.Y');?>
 </span>
 </div>
