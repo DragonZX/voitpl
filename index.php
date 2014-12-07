@@ -193,7 +193,7 @@ JHtml::_('behavior.framework', true);
 
     </div>
     <p class="art-page-footer">
-        <span id="art-footnote-links">СПб ГО ООО "ВОИ" &copy <?php echo date(Y);?>. Все права защищены.</span>
+        <span id="art-footnote-links">СПб ГО ООО "ВОИ" &copy <?php echo date('Y');?>. Все права защищены.</span>
     </p>
 </div>
 
