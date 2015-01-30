@@ -1,28 +1,33 @@
 <?php
 defined('_JEXEC') or die;
 require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'functions.php';
-
 // Create alias for $this object reference:
 $document = $this;
-
 // Shortcut for template base url:
 $templateUrl = $document->baseurl . '/templates/' . $document->template;
-
 Artx::load("Artx_Page");
-
 // Initialize $view:
 $view = $this->artx = new ArtxPage($this);
-
 // Decorate component with Artisteer style:
 $view->componentWrapper();
-
 JHtml::_('behavior.framework', true);
-
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $document->language; ?>">
 <head>
-    <jdoc:include type="head" />
+<jdoc:include type="head" />
+<!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="<?php echo $document->baseurl; ?>/templates/system/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="<?php echo $document->baseurl; ?>/templates/system/css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+    
     <link rel="stylesheet" href="<?php echo $document->baseurl; ?>/templates/system/css/system.css" />
     <link rel="stylesheet" href="<?php echo $document->baseurl; ?>/templates/system/css/general.css" />
 
@@ -35,8 +40,7 @@ JHtml::_('behavior.framework', true);
     <link rel="stylesheet" href="<?php echo $templateUrl; ?>/css/template.css" media="screen">
     <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo $templateUrl; ?>/css/template.ie7.css" media="screen" /><![endif]-->
     <link rel="stylesheet" href="<?php echo $templateUrl; ?>/css/template.responsive.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abril+Fatface&amp;subset=latin">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script>if ('undefined' != typeof jQuery) document._artxJQueryBackup = jQuery;</script>
     <script type="text/javascript" src="<?php echo $templateUrl; ?>/js/jquery.js"></script>
     <script>jQuery.noConflict();</script>

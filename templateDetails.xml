@@ -3,24 +3,25 @@
 <extension version="2.5" client="site" type="template" method="upgrade">
     <name>voi</name>
     <creationDate>2014-10-01</creationDate>
-    <version>2.2</version>
+    <version>3.0</version>
     <author>VOI Saint Petersburg</author>
     <authorUrl>spbvoi2007@yandex.ru</authorUrl>
     <description>Template for Saint Petersburg VOI</description>
     <files>
-        <folder>css</folder>
-        <folder>html</folder>
-        <folder>images</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
 		<folder>js</folder>
-        <folder>library</folder>
-        <file>component.php</file>
-        <file>favicon.ico</file>
-        <file>functions.php</file>
-        <file>index.html</file>
-        <file>index.php</file>
-        <file>templateDetails.xml</file>
-        <file>template_preview.png</file>
-        <file>template_thumbnail.png</file>
+		<folder>library</folder>
+		<folder>fonts</folder>
+		<file>component.php</file>
+		<file>favicon.ico</file>
+		<file>functions.php</file>
+		<file>index.html</file>
+		<file>index.php</file>
+		<file>templateDetails.xml</file>
+		<file>template_preview.png</file>
+		<file>template_thumbnail.png</file>
     </files>
     <positions>
         <position>debug</position>
